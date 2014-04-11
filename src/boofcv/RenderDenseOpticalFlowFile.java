@@ -18,20 +18,11 @@
 
 package boofcv;
 
-import boofcv.abst.flow.DenseOpticalFlow;
-import boofcv.abst.flow.IpolHornSchunkPyramid_to_DenseOpticalFlow;
-import boofcv.core.image.ConvertBufferedImage;
-import boofcv.gui.PanelGridPanel;
 import boofcv.gui.feature.VisualizeOpticalFlow;
-import boofcv.gui.image.AnimatePanel;
 import boofcv.gui.image.ShowImages;
-import boofcv.io.MediaManager;
-import boofcv.io.wrapper.DefaultMediaManager;
 import boofcv.struct.flow.ImageFlow;
-import boofcv.struct.image.ImageFloat32;
 
 import java.awt.image.BufferedImage;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 
 /**

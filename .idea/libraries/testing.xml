@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="testing">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../ejml/trunk/lib/junit-4.11.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
