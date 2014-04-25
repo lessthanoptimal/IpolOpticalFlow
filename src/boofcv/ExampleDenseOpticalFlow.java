@@ -19,6 +19,7 @@
 package boofcv;
 
 import boofcv.abst.flow.DenseOpticalFlow;
+import boofcv.abst.flow.IpolBroxSpacial_to_DenseOpticalFlow;
 import boofcv.abst.flow.IpolHornSchunkPyramid_to_DenseOpticalFlow;
 import boofcv.alg.distort.DistortImageOps;
 import boofcv.alg.interpolate.TypeInterpolate;
@@ -58,7 +59,8 @@ public class ExampleDenseOpticalFlow {
 //		String fileName1 = "images/Grove2_09.png";
 
 		DenseOpticalFlow<ImageFloat32> denseFlow =
-				new IpolHornSchunkPyramid_to_DenseOpticalFlow();
+//				new IpolHornSchunkPyramid_to_DenseOpticalFlow();
+				new IpolBroxSpacial_to_DenseOpticalFlow();
 
 		BufferedImage buff0 = media.openImage(fileName0);
 		BufferedImage buff1 = media.openImage(fileName1);
